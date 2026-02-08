@@ -276,7 +276,7 @@ export const doctorGoogleLogin = (req, res) => {
   } catch (err) {
     console.error("Doctor Google login error:", err);
     res.redirect(
-      `${process.env.FRONTEND_URL}/login?error=google_login_failed`
+      `${process.env.FRONTEND_URL}/doctor-login?error=google_login_failed`
     );
   }
 };
@@ -311,7 +311,7 @@ export const doctorGoogleCallback = async (req, res) => {
 
     if (!doctor) {
       return res.redirect(
-        `${process.env.FRONTEND_URL}/login?error=doctor_not_registered`
+        `${process.env.FRONTEND_URL}/doctor-login?error=doctor_not_registered`
       );
     }
 
@@ -322,14 +322,15 @@ export const doctorGoogleCallback = async (req, res) => {
     }
 
     const token = generateToken(doctor._id, doctor.phone, "doctor");
+    const doctorId = String(doctor._id);
 
     res.redirect(
-      `${process.env.FRONTEND_URL}/doctor-dashboard?token=${token}`
+      `${process.env.FRONTEND_URL}/doctor-login?token=${token}&doctorId=${doctorId}`
     );
   } catch (error) {
     console.error("Doctor Google callback error:", error);
     res.redirect(
-      `${process.env.FRONTEND_URL}/login?error=google_login_failed`
+      `${process.env.FRONTEND_URL}/doctor-login?error=google_login_failed`
     );
   }
 };
