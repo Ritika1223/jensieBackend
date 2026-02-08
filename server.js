@@ -42,6 +42,7 @@ const getAllowedOrigins = () => {
     const productionUrls = [
       'https://www.jensei.com',
       'https://jensei.com',
+      'https://jensie-frontend-yvjx.vercel.app/',
       // Note: http versions removed for security (HTTPS only in production)
     ];
     
