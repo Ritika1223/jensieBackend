@@ -1,0 +1,36 @@
+{
+  "default": {
+    "name": "Dr. Sarah Johnson",
+    "email": "sarah.johnson@jensei.com",
+    "specialty": "Cardiologist",
+    "gender": "female",
+    "experience": 12,
+    "patientStories": 1250,
+    "rating": 4.8,
+    "location": "Delhi, NCR",
+    "image": "https://jensei-images.s3.ap-south-1.amazonaws.com/doctors-images/doctor-1.png",
+    "badge": "Top Rated",
+    "fee": 1500,
+    "biography": "Dr. Sarah Johnson is a renowned cardiologist with over 12 years of experience in treating cardiovascular diseases. She specializes in interventional cardiology and has successfully performed over 2000 cardiac procedures. Her expertise includes heart failure management, cardiac rehabilitation, and preventive cardiology.",
+    "specialization": ["Interventional Cardiology", "Heart Failure", "Cardiac Rehabilitation", "Preventive Cardiology"],
+    "qualifications": "MBBS, MD (Cardiology), DM (Cardiology), FACC",
+    "totalConsultations": 3500,
+    "officeAddress": "123 Medical Center, Connaught Place, New Delhi - 110001",
+    "phoneNumber": "+91 9876543210",
+    "officePhoneNumber": "+91 22 12345678",
+    "reviews": [
+      {
+        "name": "Sarah L.",
+        "rating": 5.0,
+        "comment": "The virtual consultation was so efficient. Dr. Sharma was empathetic and clearly explained the next steps based on the AI's initial findings. Highly recommend her for quick appointments.",
+        "avatar": "/doctors-listing/177d140e192caa63642ab9208e3afc0c6202a7cc.png"
+      },
+      {
+        "name": "Rahul M.",
+        "rating": 4.5,
+        "comment": "Excellent doctor. Very professional and took time to explain everything. The booking process was smooth.",
+        "avatar": "/doctors-listing/177d140e192caa63642ab9208e3afc0c6202a7cc.png"
+      }
+    ]
+  }
+}

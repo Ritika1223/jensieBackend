@@ -1,0 +1,49 @@
+{
+  "name": "jensei-backend",
+  "version": "1.0.0",
+  "description": "Jensei Healthcare Backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "pm2:start": "pm2 start ecosystem.config.cjs --env production",
+    "pm2:stop": "pm2 stop ecosystem.config.cjs",
+    "pm2:restart": "pm2 restart ecosystem.config.cjs",
+    "pm2:reload": "git pull origin main && npm install && pm2 reload ecosystem.config.cjs --env production",
+    "pm2:delete": "pm2 delete ecosystem.config.cjs",
+    "pm2:logs": "pm2 logs jensei-backend",
+    "pm2:monit": "pm2 monit",
+    "pm2:save": "pm2 save",
+    "seed:doctors": "node scripts/seedDoctors.js",
+    "seed:filters": "node scripts/seedFilters.js",
+    "seed:schedules": "node scripts/seedDoctorSchedules.js",
+    "generate:slots": "node scripts/generateSlots.js",
+    "generate:slots:all": "node scripts/generateSlots.js",
+    "generate:slots:doctor": "node scripts/generateSlots.js",
+    "cleanup:slots": "node scripts/cleanupDuplicateSlots.js"
+  },
+  "keywords": [
+    "healthcare",
+    "api",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "axios": "^1.6.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "google-auth-library": "^9.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "sib-api-v3-sdk": "^8.5.0",
+    "twilio": "^5.12.0"
+  }
+}

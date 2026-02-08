@@ -1,0 +1,27 @@
+{
+  "revenue": {
+    "week": 32540,
+    "month": 333240
+  },
+  "analytics": {
+    "changePercent": 5,
+    "changeLabel": "increased by last week",
+    "chartData": [
+      { "day": "S", "appointment": 12, "cancelled": 0 },
+      { "day": "S", "appointment": 16, "cancelled": 0 },
+      { "day": "M", "appointment": 10, "cancelled": 2 },
+      { "day": "T", "appointment": 8, "cancelled": 7 },
+      { "day": "W", "appointment": 11, "cancelled": 3 },
+      { "day": "T", "appointment": 3, "cancelled": 0 },
+      { "day": "F", "appointment": 9, "cancelled": 0 }
+    ],
+    "totalPatients": {
+      "week": 24,
+      "month": 80
+    },
+    "newPatients": {
+      "week": 5,
+      "month": 20
+    }
+  }
+}

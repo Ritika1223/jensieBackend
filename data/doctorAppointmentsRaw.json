@@ -1,0 +1,112 @@
+{
+  "appointments": [
+    {
+      "id": "1",
+      "doctorId": "*",
+      "dateLabel": "today",
+      "timeSlot": "Morning",
+      "time": "09:00 AM",
+      "initials": "JD",
+      "name": "Jiya Das",
+      "phone": "+91 9876543210",
+      "status": "confirmed",
+      "notes": "Experiencing severe stomach ache"
+    },
+    {
+      "id": "2",
+      "doctorId": "*",
+      "dateLabel": "today",
+      "timeSlot": "Morning",
+      "time": "09:30 AM",
+      "initials": "AS",
+      "name": "Aisha Sharma",
+      "phone": "+91 9876543211",
+      "status": "confirmed",
+      "notes": "High fever and body pain"
+    },
+    {
+      "id": "3",
+      "doctorId": "*",
+      "dateLabel": "today",
+      "timeSlot": "Afternoon",
+      "time": "02:30 PM",
+      "initials": "VR",
+      "name": "Vihaan Reddy",
+      "phone": "+91 7654321098",
+      "status": "confirmed",
+      "notes": "Persistent cough and cold"
+    },
+    {
+      "id": "4",
+      "doctorId": "*",
+      "dateLabel": "today",
+      "timeSlot": "Afternoon",
+      "time": "03:00 PM",
+      "initials": "PN",
+      "name": "Priya Nair",
+      "phone": "+91 4321098765",
+      "status": "cancelled",
+      "notes": "Skin rash and itching"
+    },
+    {
+      "id": "5",
+      "doctorId": "*",
+      "dateLabel": "tomorrow",
+      "timeSlot": "Morning",
+      "time": "10:00 AM",
+      "initials": "RK",
+      "name": "Rahul Khanna",
+      "phone": "+91 3210987654",
+      "status": "confirmed",
+      "notes": "Breathing difficulty"
+    },
+    {
+      "id": "6",
+      "doctorId": "*",
+      "dateLabel": "tomorrow",
+      "timeSlot": "Afternoon",
+      "time": "02:00 PM",
+      "initials": "SK",
+      "name": "Siya Kapoor",
+      "phone": "+91 6543210987",
+      "status": "confirmed",
+      "notes": "Complaining about headache"
+    },
+    {
+      "id": "7",
+      "doctorId": "*",
+      "dateLabel": "day_after_tomorrow",
+      "timeSlot": "Morning",
+      "time": "09:00 AM",
+      "initials": "AR",
+      "name": "Arnav Roy",
+      "phone": "+91 5432109876",
+      "status": "confirmed",
+      "notes": "Feeling dizzy and weak"
+    },
+    {
+      "id": "8",
+      "doctorId": "*",
+      "dateLabel": "day_after_tomorrow",
+      "timeSlot": "Evening",
+      "time": "05:30 PM",
+      "initials": "VJ",
+      "name": "Varun Joshi",
+      "phone": "+91 1098765432",
+      "status": "confirmed",
+      "notes": "Numbness in hands"
+    },
+    {
+      "id": "9",
+      "doctorId": "*",
+      "dateLabel": "day_after_tomorrow",
+      "timeSlot": "Evening",
+      "time": "06:00 PM",
+      "initials": "NM",
+      "name": "Neha Mehra",
+      "phone": "+91 2109876543",
+      "status": "cancelled",
+      "notes": "Swollen ankles and feet"
+    }
+  ]
+}
