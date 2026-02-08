@@ -68,7 +68,7 @@ const getAllowedOrigins = () => {
     }
   } else {
     // DEVELOPMENT: Allow localhost origins
-    origins.push('http://localhost:5173', 'http://localhost:3000');
+    origins.push('http://localhost:5173', 'http://localhost:3000','https://jensie-frontend.vercel.app/');
     
     // Also allow production URLs for testing (optional)
     // Uncomment if you want to test production frontend against local backend
