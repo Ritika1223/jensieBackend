@@ -42,7 +42,7 @@ const getAllowedOrigins = () => {
     const productionUrls = [
       'https://www.jensei.com',
       'https://jensei.com',
-      'https://jensie-frontend.vercel.app/',
+      'https://jensie-frontend.vercel.app',
       // Note: http versions removed for security (HTTPS only in production)
     ];
     
@@ -68,7 +68,7 @@ const getAllowedOrigins = () => {
     }
   } else {
     // DEVELOPMENT: Allow localhost origins
-    origins.push('http://localhost:5173', 'http://localhost:3000','https://jensie-frontend.vercel.app/');
+    origins.push('http://localhost:5173', 'http://localhost:3000','https://jensie-frontend.vercel.app');
     
     // Also allow production URLs for testing (optional)
     // Uncomment if you want to test production frontend against local backend
